@@ -9,6 +9,7 @@ import Header from './components/header';
 import SignIn from './pages/signin';
 import SignUp from './pages/signup';
 import Dashboard from './pages/dashboard';
+import Chart from './pages/chart';
 
 if(localStorage.jwtToken) {
   setAuthToken(localStorage.jwtToken);
@@ -24,7 +25,8 @@ function App() {
           <Header />
           <Route exact path="/" component={ SignIn } />
           <Route exact path="/signup" component={ SignUp } />
-          <Route exact path="/dashboard" component={ Dashboard } />   
+          <Route exact path="/dashboard" component={ Dashboard } /> 
+          <Route exact path="/chart" component={ Chart } />  
         </div>
       </Router>
     </Provider>
