@@ -21,7 +21,7 @@ const Header = () => {
                 <div className="header__breadcrumb"></div>
                 <div className="header__breadcrumb"></div>
             </div>
-            <div className="logo">telematics</div>
+            <div className="logo">telematics-v2</div>
             <ul className="header__navigation">
             </ul>
 
